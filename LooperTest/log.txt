@@ -1,0 +1,28 @@
+06-03 15:45:41.895: W/asset(21668): Copying FileAsset 0x68162700 (zip:/data/app/itri.pns-1.apk:/resources.arsc) to buffer size 8848 to make it aligned.
+06-03 15:45:41.915: I/TrimMemoryManager(1113): [trimMemory] 20
+06-03 15:45:41.915: E/dalvikvm(21668): dlopen("/data/app-lib/itri.pns-1/libsensorfetch.so") failed: dlopen failed: cannot locate symbol "ALooper_forThread" referenced by "libsensorfetch.so"...
+06-03 15:45:41.915: W/dalvikvm(21668): Exception Ljava/lang/UnsatisfiedLinkError; thrown while initializing Litri/pns/PNSDemo;
+06-03 15:45:41.915: W/dalvikvm(21668): Class init failed in newInstance call (Litri/pns/PNSDemo;)
+06-03 15:45:41.915: W/dalvikvm(21668): threadid=1: thread exiting with uncaught exception (group=0x416d9e18)
+06-03 15:45:41.925: E/ActivityManager(763): App crashed! Process: itri.pns
+06-03 15:45:41.925: E/AndroidRuntime(21668): FATAL EXCEPTION: main
+06-03 15:45:41.925: E/AndroidRuntime(21668): Process: itri.pns, PID: 21668
+06-03 15:45:41.925: E/AndroidRuntime(21668): java.lang.UnsatisfiedLinkError: dlopen failed: cannot locate symbol "ALooper_forThread" referenced by "libsensorfetch.so"...
+06-03 15:45:41.925: E/AndroidRuntime(21668): 	at java.lang.Runtime.loadLibrary(Runtime.java:364)
+06-03 15:45:41.925: E/AndroidRuntime(21668): 	at java.lang.System.loadLibrary(System.java:533)
+06-03 15:45:41.925: E/AndroidRuntime(21668): 	at itri.pns.PNSDemo.<clinit>(PNSDemo.java:169)
+06-03 15:45:41.925: E/AndroidRuntime(21668): 	at java.lang.Class.newInstanceImpl(Native Method)
+06-03 15:45:41.925: E/AndroidRuntime(21668): 	at java.lang.Class.newInstance(Class.java:1208)
+06-03 15:45:41.925: E/AndroidRuntime(21668): 	at android.app.Instrumentation.newActivity(Instrumentation.java:1079)
+06-03 15:45:41.925: E/AndroidRuntime(21668): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2505)
+06-03 15:45:41.925: E/AndroidRuntime(21668): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2653)
+06-03 15:45:41.925: E/AndroidRuntime(21668): 	at android.app.ActivityThread.access$800(ActivityThread.java:156)
+06-03 15:45:41.925: E/AndroidRuntime(21668): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1355)
+06-03 15:45:41.925: E/AndroidRuntime(21668): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+06-03 15:45:41.925: E/AndroidRuntime(21668): 	at android.os.Looper.loop(Looper.java:157)
+06-03 15:45:41.925: E/AndroidRuntime(21668): 	at android.app.ActivityThread.main(ActivityThread.java:5872)
+06-03 15:45:41.925: E/AndroidRuntime(21668): 	at java.lang.reflect.Method.invokeNative(Native Method)
+06-03 15:45:41.925: E/AndroidRuntime(21668): 	at java.lang.reflect.Method.invoke(Method.java:515)
+06-03 15:45:41.925: E/AndroidRuntime(21668): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1069)
+06-03 15:45:41.925: E/AndroidRuntime(21668): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:885)
+06-03 15:45:41.925: E/AndroidRuntime(21668): 	at dalvik.system.NativeStart.main(Native Method)
